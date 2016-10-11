@@ -1,63 +1,81 @@
 <html>
 	<head>
 		<title>Bits of Web</title>
+		<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 	</head>
 
 	<body>
 
-	<div id="pumac">
-		Time Until PUMaC 2016
-		<p>
-    		Days: <span class="d"></span><br>
-	    	Hours: <span class="h"></span><br>
-	    	Minutes: <span class="m"></span><br>
-	    	Seconds: <span class="s"></span>
-	</div>
+<div id="intro">
+<h1>Contest Timers</h1>
+<hr>
+<p>
+</div>
+
+<div id="pumac">
+PUMaC
+<p>
+  <div>
+    <span class="days"></span>
+    <div class="smalltext">Days</div>
+  </div>
+</div>
+
+<div id="cmimc">
+CMIMC
+<p>
+  <div>
+    <span class="days"></span>
+    <div class="smalltext">Days</div>
+  </div>
+</div>
+
+<div id="hmmt">
+HMMT
+<p>
+  <div>
+    <span class="days"></span>
+    <div class="smalltext">Days</div>
+  </div>
+</div>
+
 	
-	<div id="hmmt">
-		Time Until HMMT 2017
-		<p>
-    		Days: <span class="d"></span><br>
-	    	Hours: <span class="h"></span><br>
-	    	Minutes: <span class="m"></span><br>
-	    	Seconds: <span class="s"></span>
-	</div>
-
 	<script>
-		function timeLeft(time)
-		{
-			var t = Date.parse(time) - Date.parse(new Date());
-			var s = Math.floor( (t/1000) % 60 );
-			var m = Math.floor( (t/1000/60) % 60 );
-			var h = Math.floor( (t/1000/60/60) % 24 );
-			var d = Math.floor( t/1000/60/60/24 );
-			return {'tot' : t, 'd' : d, 'h' : h, 'm' : m, 's' : s};
-		}
-		function initClock(id, time)
-		{
-			var clock = document.getElementById(id);
-			var daysSpan = clock.querySelector('.d');
-			var hoursSpan = clock.querySelector('.h');
-			var minutesSpan = clock.querySelector('.m');
-			var secondsSpan = clock.querySelector('.s');
+		function getTimeRemaining(endtime) {
+  var t = Date.parse(endtime) - Date.parse(new Date());
+  var seconds = Math.floor((t / 1000) % 60);
+  var minutes = Math.floor((t / 1000 / 60) % 60);
+  var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+  var days = Math.floor(t / (1000 * 60 * 60 * 24));
+  return {
+    'total': t,
+    'days': days,
+    'hours': hours,
+    'minutes': minutes,
+    'seconds': seconds
+  };
+}
 
-			function updateClock()
-			{
-				var t = timeLeft(time);
-				daysSpan.innerHTML = t.d;
-		   		hoursSpan.innerHTML = t.h;
-			    	minutesSpan.innerHTML = t.m;
-		 		secondsSpan.innerHTML = t.s;
+function initializeClockDays(id, endtime) {
+  var clock = document.getElementById(id);
+  var daysSpan = clock.querySelector('.days');
 
-				if (t.tot <= 0)
-					clearInterval(interval);
-			}
+  function updateClock() {
+    var t = getTimeRemaining(endtime);
 
-			updateClock();
-			var interval = setInterval(updateClock,100);
-		}
-		initClock("pumac", '2016-11-18 CST');
-		initClock("hmmt", '2017-2-17 CST');
+    daysSpan.innerHTML = t.days;
+
+    if (t.total <= 0) {
+      clearInterval(timeinterval);
+    }
+  }
+
+  updateClock();
+  var timeinterval = setInterval(updateClock, 100000);
+}
+initializeClockDays('pumac', '2016-11-18 CST');
+initializeClockDays('cmimc', '2017-01-27 CST');
+initializeClockDays('hmmt', '2017-02-17 CST');
 	</script>
 
 	</body>

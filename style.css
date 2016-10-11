@@ -1,18 +1,18 @@
 body{
     text-align: center;
-    background: #00ECB9;
+    background: #28f;
   font-family: sans-serif;
   font-weight: 100;
 }
 
 h1{
-  color: #396;
+  color: #fff;
   font-weight: 100;
-  font-size: 40px;
+  font-size: 50px;
   margin: 40px 0px 20px;
 }
 
-#clockdiv{
+#pumac{
     font-family: sans-serif;
     color: #fff;
     display: inline-block;
@@ -20,18 +20,55 @@ h1{
     text-align: center;
     font-size: 30px;
 }
-
-#clockdiv > div{
-    padding: 10px;
+#pumac > div{
+    padding: 0px 50px;
     border-radius: 3px;
-    background: #00BF96;
+    display: inline-block;
+}
+#pumac div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #575;
     display: inline-block;
 }
 
-#clockdiv div > span{
+#cmimc{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+#cmimc > div{
+    padding: 0px 50px;
+    border-radius: 3px;
+    display: inline-block;
+}
+#cmimc div > span{
     padding: 15px;
     border-radius: 3px;
-    background: #00816A;
+    background: #575;
+    display: inline-block;
+}
+
+#hmmt{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+#hmmt > div{
+    padding: 0px 50px;
+    border-radius: 3px;
+    display: inline-block;
+}
+#hmmt div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #575;
     display: inline-block;
 }
 
