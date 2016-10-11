@@ -8,7 +8,7 @@ body{
 h1{
   color: #fff;
   font-weight: 100;
-  font-size: 50px;
+  font-size: 35px;
   margin: 40px 0px 20px;
 }
 
@@ -18,10 +18,10 @@ h1{
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 #pumac > div{
-    padding: 0px 50px;
+    padding: 0px 25px;
     border-radius: 3px;
     display: inline-block;
 }
@@ -38,10 +38,10 @@ h1{
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 #cmimc > div{
-    padding: 0px 50px;
+    padding: 0px 25px;
     border-radius: 3px;
     display: inline-block;
 }
@@ -58,10 +58,10 @@ h1{
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 #hmmt > div{
-    padding: 0px 50px;
+    padding: 0px 25px;
     border-radius: 3px;
     display: inline-block;
 }
@@ -78,10 +78,10 @@ h1{
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 #arml > div{
-    padding: 0px 50px;
+    padding: 0px 25px;
     border-radius: 3px;
     display: inline-block;
 }
@@ -98,10 +98,10 @@ h1{
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 #meet1 > div{
-    padding: 0px 50px;
+    padding: 0px 25px;
     border-radius: 3px;
     display: inline-block;
 }
@@ -118,10 +118,10 @@ h1{
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 #meet2 > div{
-    padding: 0px 50px;
+    padding: 0px 25px;
     border-radius: 3px;
     display: inline-block;
 }
@@ -138,10 +138,10 @@ h1{
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 #meet3 > div{
-    padding: 0px 50px;
+    padding: 0px 25px;
     border-radius: 3px;
     display: inline-block;
 }
@@ -158,10 +158,10 @@ h1{
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 #meet4 > div{
-    padding: 0px 50px;
+    padding: 0px 25px;
     border-radius: 3px;
     display: inline-block;
 }
@@ -178,14 +178,134 @@ h1{
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 #meet5 > div{
-    padding: 0px 50px;
+    padding: 0px 25px;
     border-radius: 3px;
     display: inline-block;
 }
 #meet5 div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #575;
+    display: inline-block;
+}
+
+#amca{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 25px;
+}
+#amca > div{
+    padding: 0px 25px;
+    border-radius: 3px;
+    display: inline-block;
+}
+#amca div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #575;
+    display: inline-block;
+}
+
+#amcb{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 25px;
+}
+#amcb > div{
+    padding: 0px 25px;
+    border-radius: 3px;
+    display: inline-block;
+}
+#amcb div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #575;
+    display: inline-block;
+}
+
+#aimei{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 25px;
+}
+#aimei > div{
+    padding: 0px 25px;
+    border-radius: 3px;
+    display: inline-block;
+}
+#aimei div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #575;
+    display: inline-block;
+}
+
+#aimeii{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 25px;
+}
+#aimeii > div{
+    padding: 0px 25px;
+    border-radius: 3px;
+    display: inline-block;
+}
+#aimeii div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #575;
+    display: inline-block;
+}
+
+#usamo{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 25px;
+}
+#usamo > div{
+    padding: 0px 25px;
+    border-radius: 3px;
+    display: inline-block;
+}
+#usamo div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #575;
+    display: inline-block;
+}
+
+#state{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 25px;
+}
+#state > div{
+    padding: 0px 25px;
+    border-radius: 3px;
+    display: inline-block;
+}
+#state div > span{
     padding: 15px;
     border-radius: 3px;
     background: #575;

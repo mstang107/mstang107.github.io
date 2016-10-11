@@ -20,7 +20,7 @@
 
 <div id="arml">ARML<p><div><span class="days"></span><div class="smalltext">Days</div></div></div>
 
-<br><br><br><br>
+<br><br><br>
 
 <div id="meet1">Meet 1<p><div><span class="days"></span><div class="smalltext">Days</div></div></div>
 
@@ -32,7 +32,20 @@
 
 <div id="meet5">Meet 5<p><div><span class="days"></span><div class="smalltext">Days</div></div></div>
 
-	
+<div id="state">State<p><div><span class="days"></span><div class="smalltext">Days</div></div></div>
+
+<br><br><br>
+
+<div id="amca">AMC A<p><div><span class="days"></span><div class="smalltext">Days</div></div></div>
+
+<div id="amcb">AMC B<p><div><span class="days"></span><div class="smalltext">Days</div></div></div>
+
+<div id="aimei">AIME I<p><div><span class="days"></span><div class="smalltext">Days</div></div></div>
+
+<div id="aimeii">AIME II<p><div><span class="days"></span><div class="smalltext">Days</div></div></div>
+
+<div id="usamo">USA(J)MO<p><div><span class="days"></span><div class="smalltext">Days</div></div></div>
+
 	<script>
 		function getTimeRemaining(endtime) {
   var t = Date.parse(endtime) - Date.parse(new Date());
@@ -66,15 +79,21 @@ function initializeClockDays(id, endtime) {
   updateClock();
   var timeinterval = setInterval(updateClock, 100000);
 }
-initializeClockDays('pumac', '2016-11-18 CST');
-initializeClockDays('cmimc', '2017-01-27 CST');
-initializeClockDays('hmmt', '2017-02-17 CST');
-initializeClockDays('arml', '2017-06-02 CDT');
-initializeClockDays('meet1', '2016-11-07 CDT');
-initializeClockDays('meet2', '2016-11-28 CDT');
-initializeClockDays('meet3', '2016-12-19 CDT');
-initializeClockDays('meet4', '2017-01-23 CDT');
-initializeClockDays('meet5', '2017-02-13 CDT');
+initializeClockDays('pumac', '2016-11-18 GMT-6');
+initializeClockDays('cmimc', '2017-01-27 GMT-6');
+initializeClockDays('hmmt', '2017-02-17 GMT-6');
+initializeClockDays('arml', '2017-06-02 GMT-6');
+initializeClockDays('meet1', '2016-11-07 GMT-6');
+initializeClockDays('meet2', '2016-11-28 GMT-6');
+initializeClockDays('meet3', '2016-12-19 GMT-6');
+initializeClockDays('meet4', '2017-01-23 GMT-6');
+initializeClockDays('meet5', '2017-02-13 GMT-6');
+initializeClockDays('state', '2017-03-13 GMT-6');
+initializeClockDays('amca', '2017-02-07 GMT-6');
+initializeClockDays('amcb', '2017-02-15 GMT-6');
+initializeClockDays('aimei', '2017-03-07 GMT-6');
+initializeClockDays('aimeii', '2017-03-22 GMT-6');
+initializeClockDays('usamo', '2017-04-19 GMT-6');
 	</script>
 
 	</body>
