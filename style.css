@@ -72,6 +72,126 @@ h1{
     display: inline-block;
 }
 
+#arml{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+#arml > div{
+    padding: 0px 50px;
+    border-radius: 3px;
+    display: inline-block;
+}
+#arml div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #575;
+    display: inline-block;
+}
+
+#meet1{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+#meet1 > div{
+    padding: 0px 50px;
+    border-radius: 3px;
+    display: inline-block;
+}
+#meet1 div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #575;
+    display: inline-block;
+}
+
+#meet2{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+#meet2 > div{
+    padding: 0px 50px;
+    border-radius: 3px;
+    display: inline-block;
+}
+#meet2 div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #575;
+    display: inline-block;
+}
+
+#meet3{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+#meet3 > div{
+    padding: 0px 50px;
+    border-radius: 3px;
+    display: inline-block;
+}
+#meet3 div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #575;
+    display: inline-block;
+}
+
+#meet4{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+#meet4 > div{
+    padding: 0px 50px;
+    border-radius: 3px;
+    display: inline-block;
+}
+#meet4 div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #575;
+    display: inline-block;
+}
+
+#meet5{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+#meet5 > div{
+    padding: 0px 50px;
+    border-radius: 3px;
+    display: inline-block;
+}
+#meet5 div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #575;
+    display: inline-block;
+}
+
 .smalltext{
     padding-top: 5px;
     font-size: 16px;
