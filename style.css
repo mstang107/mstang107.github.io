@@ -28,7 +28,7 @@ a:active {
 h1{
   color: #fff;
   font-weight: 100;
-  font-size: 35px;
+  font-size: 30px;
   margin: 40px 0px 20px;
 }
 
@@ -36,7 +36,7 @@ h2{
 text-align: left;
   color: #fff;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 15px;
   margin: 40px 0px 20px;
 }
 
@@ -46,10 +46,10 @@ text-align: left;
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 #pumac > div{
-    padding: 0px 25px;
+    padding: 0px 15px;
     border-radius: 3px;
     display: inline-block;
 }
@@ -66,10 +66,10 @@ text-align: left;
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 #cmimc > div{
-    padding: 0px 25px;
+    padding: 0px 15px;
     border-radius: 3px;
     display: inline-block;
 }
@@ -86,10 +86,10 @@ text-align: left;
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 #hmmt > div{
-    padding: 0px 25px;
+    padding: 0px 15px;
     border-radius: 3px;
     display: inline-block;
 }
@@ -106,10 +106,10 @@ text-align: left;
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 #arml > div{
-    padding: 0px 25px;
+    padding: 0px 15px;
     border-radius: 3px;
     display: inline-block;
 }
@@ -126,10 +126,10 @@ text-align: left;
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 #meet1 > div{
-    padding: 0px 25px;
+    padding: 0px 15px;
     border-radius: 3px;
     display: inline-block;
 }
@@ -146,10 +146,10 @@ text-align: left;
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 #meet2 > div{
-    padding: 0px 25px;
+    padding: 0px 15px;
     border-radius: 3px;
     display: inline-block;
 }
@@ -166,10 +166,10 @@ text-align: left;
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 #meet3 > div{
-    padding: 0px 25px;
+    padding: 0px 15px;
     border-radius: 3px;
     display: inline-block;
 }
@@ -186,10 +186,10 @@ text-align: left;
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 #meet4 > div{
-    padding: 0px 25px;
+    padding: 0px 15px;
     border-radius: 3px;
     display: inline-block;
 }
@@ -206,10 +206,10 @@ text-align: left;
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 #meet5 > div{
-    padding: 0px 25px;
+    padding: 0px 15px;
     border-radius: 3px;
     display: inline-block;
 }
@@ -226,10 +226,10 @@ text-align: left;
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 #amca > div{
-    padding: 0px 25px;
+    padding: 0px 15px;
     border-radius: 3px;
     display: inline-block;
 }
@@ -246,10 +246,10 @@ text-align: left;
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 #amcb > div{
-    padding: 0px 25px;
+    padding: 0px 15px;
     border-radius: 3px;
     display: inline-block;
 }
@@ -266,10 +266,10 @@ text-align: left;
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 #aimei > div{
-    padding: 0px 25px;
+    padding: 0px 15px;
     border-radius: 3px;
     display: inline-block;
 }
@@ -286,10 +286,10 @@ text-align: left;
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 #aimeii > div{
-    padding: 0px 25px;
+    padding: 0px 15px;
     border-radius: 3px;
     display: inline-block;
 }
@@ -306,10 +306,10 @@ text-align: left;
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 #usamo > div{
-    padding: 0px 25px;
+    padding: 0px 15px;
     border-radius: 3px;
     display: inline-block;
 }
@@ -326,10 +326,10 @@ text-align: left;
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 #state > div{
-    padding: 0px 25px;
+    padding: 0px 15px;
     border-radius: 3px;
     display: inline-block;
 }
