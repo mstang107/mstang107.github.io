@@ -5,10 +5,38 @@ body{
   font-weight: 100;
 }
 
+/* unvisited link */
+a:link {
+    color: #ccc;
+}
+
+/* visited link */
+a:visited {
+    color: #789;
+}
+
+/* mouse over link */
+a:hover {
+    color: #eee;
+}
+
+/* selected link */
+a:active {
+    color: #89a;
+}
+
 h1{
   color: #fff;
   font-weight: 100;
   font-size: 35px;
+  margin: 40px 0px 20px;
+}
+
+h2{
+text-align: left;
+  color: #fff;
+  font-weight: 100;
+  font-size: 20px;
   margin: 40px 0px 20px;
 }
 
