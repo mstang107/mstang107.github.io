@@ -24,7 +24,6 @@ So far these links are just compilations of past problems from various tournamen
 <li> <a href=https://www.dropbox.com/sh/omil28gntnr6mr6/AADaZmGpeP9_3olBmnrDp2kTa?dl=0>Past HMMT problems</a>
 <li> <a href=https://www.dropbox.com/sh/vwn4my4bxvliepo/AABEJ95HYp03kD2n3o4XRT6va?dl=0>Past OMO problems</a>
 </ul>
-<br><br>
 <h1>2016-17 Contest Timers</h1>
 <hr>
 <p></h2>
@@ -62,6 +61,22 @@ So far these links are just compilations of past problems from various tournamen
 <div id="aimeii">AIME II<p><div><span class="days"></span><div class="smalltext">Days</div></div></div>
 
 <div id="usamo">USA(J)MO<p><div><span class="days"></span><div class="smalltext">Days</div></div></div>
+
+<br><br> <h1> Something cool </h1>
+
+<hr> <h2>
+Theorem. Let $S_2$ be the set of all $n \in \mathbb{N}$ that can be written as $n=a^2+b^2$, where $a, b \in \mathbb{Z}$. Then $n \in S_2$ if and only if, for each prime $p \equiv 3 \pmod{4}$ dividing $n$, the exponent $v_p(n)$ is even.
+<br><br>
+Proof. By the two-squares identity \[(a^2+b^2)(c^2+d^2) = (ac-bd)^2+(ad+bc)^2,\] the set $S_2$ is closed under multiplication. Now we consider the prime elements of $S_2$. We claim that a prime $p \in S_2$ if and only if $p = 2$ or $p \equiv 1 \pmod{4}$. It is clear that no $p \equiv 3 \pmod{4}$ are in $S_2$, by arithmetic modulo $4$.
+<br><br>
+Now let $p \equiv 1 \pmod{4}$. It's well known that $-1$ is a quadratic residue modulo $p$, i.e. there is an integer $x$ such that $x^2 + 1 \equiv 0 \pmod{p}$. Then, working in $\mathbb{Z}[i]$, we may factor $(x+i)(x-i) \equiv 0 \pmod{p}$. These factors have imaginary part $\pm 1$ and thus cannot be divisible by $p$ in $\mathbb{Z}[i]$. Thus, $p$ is not a prime in $\mathbb{Z}[i]$, and thus we may write $p=zw$ for some $z, w \in \mathbb{Z}[i]$ that are not units. Taking norms, we get $p^2 = N(z) \cdot N(w)$, forcing $N(z) = N(w) = p$. But $N(z)$ and $N(w)$, by definition, are the sum of two squares, proving the claim.
+<br><br>
+Since $S_2$ is closed under multiplication, we now have that all $n$ whose prime divisors are all $2$ or $1 \pmod{4}$ are in $S_2$. Further, it is clear that all $n$ whose prime divisors $p \equiv 3 \pmod{4}$ have an even exponent are also in $S_2$.
+<br><br>
+Finally, suppose that some $p \equiv 3 \pmod{4}$ divides $n$ an odd number of times, i.e. $n = n_0p^{2k-1}$ for some $n_0, k \in \mathbb{N}$ with $p \nmid n_0$, and suppose that $n = a^2+b^2$ for some $a, b \in \mathbb{Z}$. Then $a^2+b^2 \equiv 0 \pmod{p}$. Either $a, b \equiv 0 \pmod{p}$ or $(ab^{-1})^2 \equiv -1 \pmod{p}$, but the latter case is impossible since $-1$ is not a quadratic residue modulo $p$. Thus, $a, b \equiv 0 \pmod{p}$, so we can let $a = pa_0$ and $b = pb_0$, giving $n_0p^{2k-3} = a_0^2 + b_0^2$. The exponent $2k-3$ is still odd, so we obtain a contradiction by infinite descent, when eventually the exponent of $p$ on the left-hand side becomes $1$ but the right-hand side is divisible by $p^2$. This proves the theorem.
+</h2>
+
+
 
 	<script>
 		function getTimeRemaining(endtime) {
