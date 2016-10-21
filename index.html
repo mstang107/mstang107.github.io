@@ -3,10 +3,6 @@
 		<title>Bits of Web</title>
 		<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 
-<audio id="timer">
-  <source src="Times up.mp3"/>
-</audio>
-
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
 </script>
@@ -113,11 +109,11 @@ function initializeClock(id, endtime) {
 
     secondsSpan.innerHTML = t.seconds;
 
-    if (t.total <= 0) { clearInterval(timeinterval); document.getElementById( 'timer').play(); }
+    if (t.total <= 0) { clearInterval(timeinterval); }
   }
 if (secondsSpan.innerHTML == "" || secondsSpan.innerHTML == "0") {
 updateClock();
-  var timeinterval = setInterval(updateClock, 1000); }
+  var timeinterval = setInterval(updateClock, 100); }
 }
 function tossup() {
 	initializeClock("Tossup", new Date(Date.parse(new Date()) + 5000));
