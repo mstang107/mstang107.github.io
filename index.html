@@ -3,6 +3,9 @@
 		<title>Bits of Web</title>
 		<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 
+<audio id="timer">
+  <source src="Times up.mp3"/>
+</audio>
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
@@ -15,6 +18,14 @@
 
 	<body>
 
+<h1>SciBowl timers</h1><hr>
+
+<div id="Tossup"><button onclick="tossup()">Tossup</button><p><div><span class="seconds">0</span><div class="smalltext">Seconds</div></div></div>
+
+<div id="Bonus">
+<button onclick="bonus()">Bonus</button><p><div><span class="seconds">0</span><div class="smalltext">Seconds</div></div></div>
+
+<p>
 <h1>Some links</h1>
 <p><hr>
 <h2>
@@ -76,8 +87,6 @@ Since $S_2$ is closed under multiplication, we now have that all $n$ whose prime
 Finally, suppose that some $p \equiv 3 \pmod{4}$ divides $n$ an odd number of times, i.e. $n = n_0p^{2k-1}$ for some $n_0, k \in \mathbb{N}$ with $p \nmid n_0$, and suppose that $n = a^2+b^2$ for some $a, b \in \mathbb{Z}$. Then $a^2+b^2 \equiv 0 \pmod{p}$. Either $a, b \equiv 0 \pmod{p}$ or $(ab^{-1})^2 \equiv -1 \pmod{p}$, but the latter case is impossible since $-1$ is not a quadratic residue modulo $p$. Thus, $a, b \equiv 0 \pmod{p}$, so we can let $a = pa_0$ and $b = pb_0$, giving $n_0p^{2k-3} = a_0^2 + b_0^2$. The exponent $2k-3$ is still odd, so we obtain a contradiction by infinite descent, when eventually the exponent of $p$ on the left-hand side becomes $1$ but the right-hand side is divisible by $p^2$. This proves the theorem.
 </h2>
 
-
-
 	<script>
 		function getTimeRemaining(endtime) {
   var t = Date.parse(endtime) - Date.parse(new Date());
@@ -92,6 +101,30 @@ Finally, suppose that some $p \equiv 3 \pmod{4}$ divides $n$ an odd number of ti
     'minutes': minutes,
     'seconds': seconds
   };
+}
+
+function initializeClock(id, endtime) {
+  var clock = document.getElementById(id);
+  var secondsSpan = clock.querySelector('.seconds');
+
+
+  function updateClock() {
+    var t = getTimeRemaining(endtime);
+
+    secondsSpan.innerHTML = t.seconds;
+
+    if (t.total <= 0) { clearInterval(timeinterval); document.getElementById( 'timer').play(); }
+  }
+if (secondsSpan.innerHTML == "" || secondsSpan.innerHTML == "0") {
+updateClock();
+  var timeinterval = setInterval(updateClock, 1000); }
+}
+function tossup() {
+	initializeClock("Tossup", new Date(Date.parse(new Date()) + 5000));
+}
+
+function bonus() {
+	initializeClock("Bonus", new Date(Date.parse(new Date()) + 20000));
 }
 
 function initializeClockDays(id, endtime) {
@@ -111,21 +144,27 @@ function initializeClockDays(id, endtime) {
   updateClock();
   var timeinterval = setInterval(updateClock, 100000);
 }
-initializeClockDays('pumac', '2016-11-18 GMT-6');
-initializeClockDays('cmimc', '2017-01-27 GMT-6');
-initializeClockDays('hmmt', '2017-02-17 GMT-6');
-initializeClockDays('arml', '2017-06-02 GMT-6');
-initializeClockDays('meet1', '2016-11-07 GMT-6');
-initializeClockDays('meet2', '2016-11-28 GMT-6');
-initializeClockDays('meet3', '2016-12-19 GMT-6');
-initializeClockDays('meet4', '2017-01-23 GMT-6');
-initializeClockDays('meet5', '2017-02-13 GMT-6');
-initializeClockDays('state', '2017-03-13 GMT-6');
-initializeClockDays('amca', '2017-02-07 GMT-6');
-initializeClockDays('amcb', '2017-02-15 GMT-6');
-initializeClockDays('aimei', '2017-03-07 GMT-6');
-initializeClockDays('aimeii', '2017-03-22 GMT-6');
-initializeClockDays('usamo', '2017-04-19 GMT-6');
+
+function getDate(s)
+{
+	var arr = s.split(/[- :]/);
+	return new Date(arr[0], arr[1]-1, arr[2], arr[3], arr[4], arr[5]);
+}
+initializeClockDays('pumac', getDate('2016-11-18 12:00:00'));
+initializeClockDays('cmimc', getDate('2017-01-27 12:00:00'));
+initializeClockDays('hmmt', getDate('2017-02-17 12:00:00'));
+initializeClockDays('arml', getDate('2017-06-02 12:00:00'));
+initializeClockDays('meet1', getDate('2016-11-07 12:00:00'));
+initializeClockDays('meet2', getDate('2016-11-28 12:00:00'));
+initializeClockDays('meet3', getDate('2016-12-19 12:00:00'));
+initializeClockDays('meet4', getDate('2017-01-23 12:00:00'));
+initializeClockDays('meet5', getDate('2017-02-13 12:00:00'));
+initializeClockDays('state', getDate('2017-03-13 12:00:00'));
+initializeClockDays('amca', getDate('2017-02-07 12:00:00'));
+initializeClockDays('amcb', getDate('2017-02-15 12:00:00'));
+initializeClockDays('aimei', getDate('2017-03-07 12:00:00'));
+initializeClockDays('aimeii', getDate('2017-03-22 12:00:00'));
+initializeClockDays('usamo', getDate('2017-04-19 12:00:00'));
 	</script>
 
 	</body>
