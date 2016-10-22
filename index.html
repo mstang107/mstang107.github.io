@@ -46,7 +46,7 @@
 		function getDate(s) { var arr = s.split(/[- :]/); return new Date(arr[0], arr[1]-1, arr[2], arr[3], arr[4], arr[5]); }
 
 		function secondsLeft(endtime){ return Math.floor(( (Date.parse(endtime) - Date.parse(new Date())) / 1000) % 60); }
-		function daysLeft(endtime) { return Math.floor((Date.parse(endtime) - Date.parse(new Date())) / (1000*60*60*24)); }
+		function daysLeft(endtime) { return Math.ceil((Date.parse(endtime) - Date.parse(new Date())) / (1000*60*60*24)); }
 
 		function initClockCond(id, endtime)
 		{
@@ -77,21 +77,21 @@
 		    	}
 		  	updateClock(); var timeinterval = setInterval(updateClock, 1000);
 		}
-		initClock('pumac', getDate('2016-11-18 12:00:00'));
-		initClock('cmimc', getDate('2017-01-27 12:00:00'));
-		initClock('hmmt', getDate('2017-02-17 12:00:00'));
-		initClock('arml', getDate('2017-06-02 12:00:00'));
-		initClock('meet1', getDate('2016-11-07 12:00:00'));
-		initClock('meet2', getDate('2016-11-28 12:00:00'));
-		initClock('meet3', getDate('2016-12-19 12:00:00'));
-		initClock('meet4', getDate('2017-01-23 12:00:00'));
-		initClock('meet5', getDate('2017-02-13 12:00:00'));
-		initClock('state', getDate('2017-03-13 12:00:00'));
-		initClock('amca', getDate('2017-02-07 12:00:00'));
-		initClock('amcb', getDate('2017-02-15 12:00:00'));
-		initClock('aimei', getDate('2017-03-07 12:00:00'));
-		initClock('aimeii', getDate('2017-03-22 12:00:00'));
-		initClock('usamo', getDate('2017-04-19 12:00:00'));
+		initClock('pumac', getDate('2016-11-18 0:00:00'));
+		initClock('cmimc', getDate('2017-01-27 0:00:00'));
+		initClock('hmmt', getDate('2017-02-17 0:00:00'));
+		initClock('arml', getDate('2017-06-02 0:00:00'));
+		initClock('meet1', getDate('2016-11-07 0:00:00'));
+		initClock('meet2', getDate('2016-11-28 0:00:00'));
+		initClock('meet3', getDate('2016-12-19 0:00:00'));
+		initClock('meet4', getDate('2017-01-23 0:00:00'));
+		initClock('meet5', getDate('2017-02-13 0:00:00'));
+		initClock('state', getDate('2017-03-13 0:00:00'));
+		initClock('amca', getDate('2017-02-07 0:00:00'));
+		initClock('amcb', getDate('2017-02-15 0:00:00'));
+		initClock('aimei', getDate('2017-03-07 0:00:00'));
+		initClock('aimeii', getDate('2017-03-22 0:00:00'));
+		initClock('usamo', getDate('2017-04-19 0:00:00'));
 	</script>
 
 	<br><br><h1>Something cool</h1><hr>
