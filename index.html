@@ -46,7 +46,7 @@
 		function getDate(s) { var arr = s.split(/[- :]/); return new Date(arr[0], arr[1]-1, arr[2], arr[3], arr[4], arr[5]); }
 
 		function secondsLeft(endtime){ return Math.floor(( (Date.parse(endtime) - Date.parse(new Date())) / 1000) % 60); }
-		function daysLeft(endtime) { return Math.floor((Date.parse(endtime) - Date.parse(new Date())) / (1000*60*60*24)) + 1; }
+		function daysLeft(endtime) { return Math.floor((Date.parse(endtime) - Date.parse(new Date())) / (1000*60*60*24)); }
 
 		function initClockCond(id, endtime)
 		{
