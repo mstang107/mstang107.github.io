@@ -1,386 +1,134 @@
-body{
-    text-align: center;
-    background: #555;
+body{text-align: center;background: #555;
   font-family: sans-serif;
-  font-weight: 100;
-}
+  font-weight: 100;}
 
-/* unvisited link */
-a:link {
-    color: #ccc;
-}
+a:link {color: #ccc;} /* unvisited link */
+a:visited {color: #789;} /* visited link */
+a:hover {color: #eee;} /* mouse over link */
+a:active {color: #89a;} /* selected link */
 
-/* visited link */
-a:visited {
-    color: #789;
-}
 
-/* mouse over link */
-a:hover {
-    color: #eee;
-}
-
-/* selected link */
-a:active {
-    color: #89a;
-}
+.smalltext{padding-top: 5px;font-size: 16px;}
 
 h1{
   color: #fff;
   font-weight: 100;
+  font-size: 25px;
+  margin: 20px 0px 15px;}
+
+h15{
+  color: #fff;
+  font-weight: 100;
   font-size: 30px;
-  margin: 40px 0px 20px;
-}
+  margin: 40px 0px 20px;}
 
 h2{
 text-align: left;
   color: #fff;
   font-weight: 100;
   font-size: 15px;
-  margin: 40px 0px 20px;
-}
+  margin: 40px 0px 20px;}
 
-#Tossup{
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 20px;
-}
-#Tossup > div{
-    padding: 0px 15px;
-    border-radius: 3px;
-    display: inline-block;
-}
-#Tossup div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #575;
-    display: inline-block;
-}
+#Tossup{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#Tossup > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#Tossup div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
 
-#Bonus{
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 20px;
-}
-#Bonus > div{
-    padding: 0px 15px;
-    border-radius: 3px;
-    display: inline-block;
-}
-#Bonus div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #575;
-    display: inline-block;
-}
+#omospring{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#omospring > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#omospring div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
 
-#pumac{
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 20px;
-}
-#pumac > div{
-    padding: 0px 15px;
-    border-radius: 3px;
-    display: inline-block;
-}
-#pumac div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #575;
-    display: inline-block;
-}
+#omofall{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#omofall > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#omofall div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
 
-#cmimc{
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 20px;
-}
-#cmimc > div{
-    padding: 0px 15px;
-    border-radius: 3px;
-    display: inline-block;
-}
-#cmimc div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #575;
-    display: inline-block;
-}
+#Bonus{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#Bonus > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#Bonus div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
 
-#hmmt{
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 20px;
-}
-#hmmt > div{
-    padding: 0px 15px;
-    border-radius: 3px;
-    display: inline-block;
-}
-#hmmt div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #575;
-    display: inline-block;
-}
+#pumac{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#pumac > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#pumac div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
 
-#arml{
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 20px;
-}
-#arml > div{
-    padding: 0px 15px;
-    border-radius: 3px;
-    display: inline-block;
-}
-#arml div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #575;
-    display: inline-block;
-}
+#cmimc{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#cmimc > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#cmimc div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
 
-#meet1{
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 20px;
-}
-#meet1 > div{
-    padding: 0px 15px;
-    border-radius: 3px;
-    display: inline-block;
-}
-#meet1 div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #575;
-    display: inline-block;
-}
+#hmmt{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#hmmt > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#hmmt div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
 
-#meet2{
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 20px;
-}
-#meet2 > div{
-    padding: 0px 15px;
-    border-radius: 3px;
-    display: inline-block;
-}
-#meet2 div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #575;
-    display: inline-block;
-}
+#arml{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#arml > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#arml div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
 
-#meet3{
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 20px;
-}
-#meet3 > div{
-    padding: 0px 15px;
-    border-radius: 3px;
-    display: inline-block;
-}
-#meet3 div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #575;
-    display: inline-block;
-}
+#meet1{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#meet1 > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#meet1 div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
 
-#meet4{
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 20px;
-}
-#meet4 > div{
-    padding: 0px 15px;
-    border-radius: 3px;
-    display: inline-block;
-}
-#meet4 div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #575;
-    display: inline-block;
-}
+#meet2{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#meet2 > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#meet2 div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
 
-#meet5{
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 20px;
-}
-#meet5 > div{
-    padding: 0px 15px;
-    border-radius: 3px;
-    display: inline-block;
-}
-#meet5 div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #575;
-    display: inline-block;
-}
+#meet3{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#meet3 > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#meet3 div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
 
-#amca{
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 20px;
-}
-#amca > div{
-    padding: 0px 15px;
-    border-radius: 3px;
-    display: inline-block;
-}
-#amca div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #575;
-    display: inline-block;
-}
+#meet4{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#meet4 > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#meet4 div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
 
-#amcb{
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 20px;
-}
-#amcb > div{
-    padding: 0px 15px;
-    border-radius: 3px;
-    display: inline-block;
-}
-#amcb div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #575;
-    display: inline-block;
-}
+#meet5{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#meet5 > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#meet5 div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
 
-#aimei{
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 20px;
-}
-#aimei > div{
-    padding: 0px 15px;
-    border-radius: 3px;
-    display: inline-block;
-}
-#aimei div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #575;
-    display: inline-block;
-}
+#amca{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#amca > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#amca div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
 
-#aimeii{
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 20px;
-}
-#aimeii > div{
-    padding: 0px 15px;
-    border-radius: 3px;
-    display: inline-block;
-}
-#aimeii div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #575;
-    display: inline-block;
-}
+#amcb{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#amcb > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#amcb div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
 
-#usamo{
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 20px;
-}
-#usamo > div{
-    padding: 0px 15px;
-    border-radius: 3px;
-    display: inline-block;
-}
-#usamo div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #575;
-    display: inline-block;
-}
+#aimei{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#aimei > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#aimei div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
 
-#state{
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 20px;
-}
-#state > div{
-    padding: 0px 15px;
-    border-radius: 3px;
-    display: inline-block;
-}
-#state div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #575;
-    display: inline-block;
-}
+#aimeii{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#aimeii > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#aimeii div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
 
-.smalltext{
-    padding-top: 5px;
-    font-size: 16px;
-}
+#usamo{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#usamo > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#usamo div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
+
+#state{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#state > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#state div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
+
+#nimo27{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#nimo27 > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#nimo27 div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
+
+#nimo28{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#nimo28 > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#nimo28 div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
+
+#nimo29{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#nimo29 > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#nimo29 div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
+
+#nimo30{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#nimo30 > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#nimo30 div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
+
+#nimo31{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#nimo31 > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#nimo31 div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
+
+#nimoapril{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#nimoapril > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#nimoapril div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
+
+#nimo32{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
+#nimo32 > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
+#nimo32 div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
