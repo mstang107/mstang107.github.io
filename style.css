@@ -30,112 +30,46 @@ text-align: left;
   font-size: 15px;
   margin: 40px 0px 20px;}
 
-#Tossup{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#Tossup > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#Tossup div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
 
-#fraction{float:right;font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:15px;}
-#fraction > div{padding: 0px 4px;border-radius: 2px;display: inline-block;}
-#fraction div > span{padding: 6px;border-radius: 2px;background: #575;display: inline-block;}
-
+#fraction, #omospring, #omofall, #pumac, #cmimc, #hmmt, #arml, #meet1, #meet2, #meet3, #meet4, #meet5, #amca, #amcb, #aimei, #aimeii, #usamo, #state, #nimo27, #nimo28, #nimo29, #nimo30, #nimo31, #nimoapril, #nimo32
+{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size:16px;
+	padding: 0px 10px;
+}
+#clearing > div, #omospring > div, #omofall > div, #pumac > div, #cmimc > div, #hmmt > div, #arml > div, #meet1 > div, #meet2 > div, #meet3 > div, #meet4 > div, #meet5 > div, #amca > div, #amcb > div, #aimei > div, #aimeii > div, #usamo > div, #state > div, #nimo27 > div, #nimo28 > div, #nimo29 > div, #nimo30 > div, #nimo31 > div, #nimoapril > div, #nimo32 > div
+{
+	border-radius: 4px
+	display: inline-block;
+}
+#omospring div > span, #omofall div > span, #pumac div > span, #cmimc div > span, #hmmt div > span, #arml div > span, #meet1 div > span, #meet2 div > span, #meet3 div > span, #meet4 div > span, #meet5 div > span, #amca div > span, #amcb div > span, #aimei div > span, #aimeii div > span, #usamo div > span, #state div > span, #nimo27 div > span, #nimo28 div > span, #nimo29 div > span, #nimo30 div > span, #nimo31 div > span, #nimoapril div > span, #nimo32 div > span
+{
+	padding: 10px;
+	border-radius: 3px;
+	background: #575;
+	display: inline-block;
+}
+#fraction {float: right;}
+#fraction > div
+{
+	padding: 0px 4px;
+	border-radius: 2px;
+	display: inline-block;
+	color:#fff;
+}
+#fraction div > span
+{
+	padding: 6px;
+	border-radius: 2px;
+	background: #575;
+	display: inline-block;
+	color:#fff;
+}
 #clearing{clear: both;}
 
-#omospring{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#omospring > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#omospring div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
 
-#omofall{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#omofall > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#omofall div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
-
-#Bonus{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#Bonus > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#Bonus div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
-
-#pumac{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#pumac > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#pumac div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
-
-#cmimc{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#cmimc > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#cmimc div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
-
-#hmmt{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#hmmt > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#hmmt div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
-
-#arml{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#arml > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#arml div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
-
-#meet1{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#meet1 > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#meet1 div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
-
-#meet2{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#meet2 > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#meet2 div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
-
-#meet3{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#meet3 > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#meet3 div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
-
-#meet4{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#meet4 > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#meet4 div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
-
-#meet5{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#meet5 > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#meet5 div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
-
-#amca{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#amca > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#amca div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
-
-#amcb{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#amcb > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#amcb div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
-
-#aimei{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#aimei > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#aimei div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
-
-#aimeii{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#aimeii > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#aimeii div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
-
-#usamo{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#usamo > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#usamo div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
-
-#state{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#state > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#state div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
-
-#nimo27{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#nimo27 > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#nimo27 div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
-
-#nimo28{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#nimo28 > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#nimo28 div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
-
-#nimo29{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#nimo29 > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#nimo29 div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
-
-#nimo30{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#nimo30 > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#nimo30 div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
-
-#nimo31{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#nimo31 > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#nimo31 div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
-
-#nimoapril{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#nimoapril > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#nimoapril div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
-
-#nimo32{font-family: sans-serif;color: #fff;display: inline-block;font-weight: 100;text-align: center;font-size:18px;}
-#nimo32 > div{padding: 0px 25px;border-radius: 3px;display: inline-block;}
-#nimo32 div > span{padding: 10px;border-radius: 3px;background: #575;display: inline-block;}
+#omospring, #nimoapril, #usamo, #nimo32, #nimo27, #nimo27, #omofall, #nimo30 {padding: 0px 3px; }
