@@ -1,0 +1,16 @@
+
+<h1>SciBowl timers</h1><p><hr>
+
+	<div id="Tossup"><button onclick="tossup()">Tossup</button><br><div><span class="seconds">0</span><div class="smalltext">Seconds</div></div></div>
+	<div id="Bonus"><button onclick="bonus()">Bonus</button><br><div><span class="seconds">0</span><div class="smalltext">Seconds</div></div></div>
+
+	<p><h1>Some links</h1><p><hr>
+
+	<h2>These links are just compilations of past problems from various tournaments, for easy access/printing/etc. All these PDFs can be found on their contests' respective websites; I claim no ownership or copyright over them.
+	<ul>	<li> <a href=https://www.dropbox.com/sh/5ufyrolfyg7wgtu/AADOQEiEapX7K0pLxz3qEm_Ma?dl=0>Past PUMaC problems</a>
+		<li> <a href=https://www.dropbox.com/sh/omil28gntnr6mr6/AADaZmGpeP9_3olBmnrDp2kTa?dl=0>Past HMMT problems</a>
+		<li> <a href=https://www.dropbox.com/sh/vwn4my4bxvliepo/AABEJ95HYp03kD2n3o4XRT6va?dl=0>Past OMO problems</a>
+	</ul>
+	</h2>
+</body>
+</html>

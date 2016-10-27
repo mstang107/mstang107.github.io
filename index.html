@@ -34,7 +34,7 @@ function show(shown, hidden) {
 		<div id="usamo">USA(J)MO<br><div><span class="days"></span><div class="smalltext">Days</div></div></div>
 	</div>
 
-	<div><h1>NIMO/OMO</h1>
+	<div><h1>NIMO & OMO</h1>
 		<div id="nimo27">NIMO 27<br><div><span class="days"></span><div class="smalltext">Days</div></div></div>
 		<div id="nimo28">NIMO 28<br><div><span class="days"></span><div class="smalltext">Days</div></div></div>
 		<div id="omofall">OMO Fall<br><div><span class="days"></span><div class="smalltext">Days</div></div></div>
@@ -55,12 +55,17 @@ function show(shown, hidden) {
 		<div id="state">State<br><div><span class="days"></span><div class="smalltext">Days</div></div></div>
 	</div>
 
-	<div id="fraction">
-	<br><br>
+	<div><h1>Minor Contests</h1>
+		<div id="usamts1">USAMTS R1<br><div><span class="days"></span><div class="smalltext">Days</div></div></div>
+		<div id="usamts2">USAMTS R2<br><div><span class="days"></span><div class="smalltext">Days</div></div></div>
+		<div id="usamts3">USAMTS R3<br><div><span class="days"></span><div class="smalltext">Days</div></div></div>
+		<div id="purplecomet">Purple Comet<br><div><span class="days"></span><div class="smalltext">Days</div></div></div>
+	</div>
+
+	<div id="fraction">...plus <p>
 	    <div><span class="hours"></span><div class="smalltext">Hrs</div></div>
 	    <div><span class="minutes"></span><div class="smalltext">Mins</div></div>
-		<div><span class="seconds"></span><div class="smalltext">Secs</div></div><p><div class="tinytext">
-	*may be off by 1 hour due to DST :(</div>
+		<div><span class="seconds"></span><div class="smalltext">Secs</div></div> <p> <div class="tinytext">(until midnight)</div>
 	</div>
 	<div id="clearing"></div>
 		<script>
@@ -69,7 +74,7 @@ function show(shown, hidden) {
 			function secondsLeft(endtime){ return Math.floor(( (Date.parse(endtime) - Date.parse(new Date())) / 1000) % 60); }
 			function minutesLeft(endtime){ return Math.floor(( (Date.parse(endtime) - Date.parse(new Date())) / 1000 / 60) % 60); }
 			function hoursLeft(endtime){ return Math.floor(( (Date.parse(endtime) - Date.parse(new Date())) / 1000 / 60 / 60) % 24); }
-			function daysLeft(endtime) { return Math.ceil((Date.parse(endtime) - Date.parse(new Date())) / (1000*60*60*24)); }
+			function daysLeft(endtime) { return Math.floor((Date.parse(endtime) - Date.parse(new Date())) / (1000*60*60*24)); }
 
 			function initClockCond(id, endtime)
 			{
@@ -139,6 +144,10 @@ function show(shown, hidden) {
 			initClock('nimoapril', getDate('2017-4-1 0:00:00'));
 			initClock('nimo31', getDate('2017-4-7 0:00:00'));
 			initClock('nimo32', getDate('2017-5-11 0:00:00'));
+			initClock('usamts1', getDate('2016-9-9 0:00:00'));
+			initClock('usamts2', getDate('2016-10-21 0:00:00'));
+			initClock('usamts3', getDate('2016-12-2 0:00:00'));
+			initClock('purplecomet', getDate('2017-4-18 0:00:00'));
 		
 			Date.prototype.stdTimezoneOffset = function() {
 	var jan = new Date(this.getFullYear(), 0, 1);
